@@ -14,3 +14,7 @@ body type, fuel type, drivetrain) All the features mensioned above were collecte
 Plus, additional features were collected for training and
 test data (acceleration time to 100 miles/h, transmission, types of rear and front brakes, types of rear and
 front suspensions. The collected data had some nans, but I filled them in.
+
+The feature analysis revealed that there is a noticeable correlation between the numerical features and
+the target variable. All categorical features had statistically significant differences in relationship to
+target variable.
