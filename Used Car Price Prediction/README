@@ -29,3 +29,8 @@ Initially I tried to encode categorical features by applying the get_dummies fun
 but this encoding creates many additional features in the model and it showed
 a worse result than the cat.codes encoding. Normalization of all features in the model also showed
 a worse result. By applying logarithm function to the target variable  I improved the accuracy of the model.
+
+Several machine learning algorithms have been tested with parameters tuning to build the model. 
+The following algorithms have been tested(Cat Boost, randomForest, GradientBoosting,
+XGBoost, LGBMRegressor, Bagging, AdaBoost, Stacking, VotingRegressor.) For parameters tuning, I used
+GridSearchCV and experementation.
