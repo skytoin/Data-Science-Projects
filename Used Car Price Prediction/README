@@ -1,36 +1,40 @@
 The goal of this project is to build a model for predicting used auto prices. The price
 is the target variable. Before building the model more than 200 thousands ads were collected on the car 
-trading website. It was done in early August 2021. The competition used 36,000 ads,
-which were collected during 2020. 2020 and 2021 are very unusual years due to the pandemic,
+trading website. It was done in early August 2021. The competition used 36,000 ads to test the final model,
+Test data had been collected during 2020. 2020 and 2021 are very unusual years due to the pandemic,
 which affected the market, including the car market.
 
-To collect data, I used several special libraries for this.
+To collect data, I used several special libraries to parse data online.
 Since I collected a lot of ads, I used threads to speed up the process.
-The data was collected not on kaggle.com, but in ide pycharm.
+The data was collected took place in pycharm ide not on kaggle.com.
 
 The test data table had the key features (manufacturing year, model, make, model year,
 mileage, engine size, engine power, color, number of doors, number of owners, steering wheel side,
-body type, fuel type, drivetrain) All the features mensioned above were collected for training data.  
-Plus, additional features were collected for training and
-test data (acceleration time to 100 miles/h, transmission, types of rear and front brakes, types of rear and
-front suspensions. The collected data had some nans, but I filled them in.
+body type, fuel type, drivetrain) All the features mensioned above were collected for training data too.  
+Plus, additional features were collected for training and test data (acceleration time to 100 miles/h, 
+transmission, types of rear and front brakes, types of rear and front suspensions. 
+The collected data had some nans, but I filled them in.
 
-The feature analysis revealed that there is a noticeable correlation between the numerical features and
+The features analysis revealed that there is a noticeable correlation between the numerical features and
 the target variable. All categorical features had statistically significant differences in relationship to
 target variable.
 
 Then several features were created to improved model's predictions. The average
-engine power fore each model was added to table. Another new feature is average mileage by 
-year of release. Then was calculated average acceleration to 100 per vehicle's number of gears and 
+engine power for each model was added to table. Another new feature is average mileage by 
+year of release. Then I calculated average acceleration to 100 per vehicle's number of gears and 
 engine capacity. Another new feature is the ratio of engine power and acceleration to 100. 
 The last new feature is  the difference between the model year and the manufacturing year.
 
 Initially I tried to encode categorical features by applying the get_dummies function, 
-but this encoding creates many additional features in the model and it showed
-a worse result than the cat.codes encoding. Normalization of all features in the model also showed
-a worse result. By applying logarithm function to the target variable  I improved the accuracy of the model.
+but this encoding created many additional features in the model and it showed
+worse result than the cat.codes encoding. Normalization of all features in the model also showed
+worse result. By applying logarithm function to the target variable  I improved the accuracy of the model.
 
 Several machine learning algorithms have been tested with parameters tuning to build the model. 
 The following algorithms have been tested(Cat Boost, randomForest, GradientBoosting,
 XGBoost, LGBMRegressor, Bagging, AdaBoost, Stacking, VotingRegressor.) For parameters tuning, I used
 GridSearchCV and experementation.
+
+As I mentioned above  there is more than one year difference between the training data and the test data. 2020 and 
+2021 were very unusual years. It was reflected in markets around the world. So in the end
+I multiplied the model predictions by a factor that significantly improved the model prediction result.
