@@ -23,4 +23,4 @@ Then several features were created to improved model's predictions. The average
 engine power fore each model was added to table. Another new feature is average mileage by 
 year of release. Then was calculated average acceleration to 100 per vehicle's number of gears and 
 engine capacity. Another new feature is the ratio of engine power and acceleration to 100. 
-Plus I calculated  the difference between the model year and the manufacturing year.
+The last new feature is  the difference between the model year and the manufacturing year.
