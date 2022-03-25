@@ -18,3 +18,9 @@ front suspensions. The collected data had some nans, but I filled them in.
 The feature analysis revealed that there is a noticeable correlation between the numerical features and
 the target variable. All categorical features had statistically significant differences in relationship to
 target variable.
+
+Then several features were created to improved model's predictions. The average
+engine power fore each model was added to table. Another new feature is average mileage by 
+year of release. Then was calculated average acceleration to 100 per vehicle's number of gears and 
+engine capacity. Another new feature is the ratio of engine power and acceleration to 100. 
+Plus I calculated  the difference between the model year and the manufacturing year.
