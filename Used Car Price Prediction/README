@@ -1,1 +1,10 @@
+The goal of this project is to build a model for predicting used auto prices. The price
+is the target variable. Before building the model more than 200 thousands ads were collected on the car 
+trading website. It was done in early August 2021. The competition used 36,000 ads,
+which were collected during 2020. 2020 and 2021 are very unusual years due to the pandemic,
+which affected the market, including the car market.
+
+To collect data, I used several special libraries for this.
+Since I collected a lot of ads, I used threads to speed up the process.
+The data was collected not on kaggle.com, but in ide pycharm.
 
