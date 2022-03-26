@@ -6,7 +6,7 @@ which affected the market, including the car market.
 
 To collect data, I used several special libraries to parse data online.
 Since I collected a lot of ads, I used threads to speed up the process.
-The data was collected took place in pycharm ide not on kaggle.com.
+The data collection took place in pycharm ide not on kaggle.com.
 
 The test data table had the key features (manufacturing year, model, make, model year,
 mileage, engine size, engine power, color, number of doors, number of owners, steering wheel side,
