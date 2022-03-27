@@ -1,0 +1,8 @@
+The goal of this project is to make predictions for the bank. The model suppose to
+evaluate how much money bank has to keep so people can withdraw their money fast 
+and the amount they want. The data for this project is dayly bank balance during
+5 years.
+
+I worked with several analysis tools for time series eda. 
+I built several time series models to solve this problem. I used them to make
+different kind of predictions
