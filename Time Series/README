@@ -3,6 +3,9 @@ evaluate how much money bank has to keep so people can withdraw their money fast
 and the amount they want. The data for this project is dayly bank balance during
 5 years.
 
-I worked with several analysis tools for time series eda. 
-I built several time series models to solve this problem. I used them to make
-different kind of predictions
+I used several analysis tools for time series eda. Data was analyzed for
+stationarity, seasonality, trending, heteroscedasticity. Decomposition, autocorrelation, 
+partial autocorrelation tools were used to better study the data.
+
+I built several time series models to solve this problem (Single HWES, Double HWES, Triple HWES,
+ARIMA, Sarima)The data was downsampled to build different kind of future horizon predictions.
