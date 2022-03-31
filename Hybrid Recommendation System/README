@@ -6,3 +6,5 @@ of purchase, number of reviews, the weight of the product, indicatation if purch
 brand of the product, and the target variable. If buyer is satisfied with specific purchase then the value 
 of target variable is 1 and if buyer isn't satisfied the value is 0.
  
+The given data had some features with missed values. Missed values wered filled in if feature had low percentage
+of missed values. Features like link to images were dropped, because they had too much of missed values.
