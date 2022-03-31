@@ -1,1 +1,8 @@
 
+The goal of this project is to build a recommendation system to predict customer satisfaction with 
+specific purchase. The data for training and submission is from Amazon. The data contains
+user ids, product ids, product category, cost, number of stars, rank in Amazon system, the year and month
+of purchase, number of reviews, the weight of the product, indicatation if purchase was verified or not, the
+brand of the product, and the target variable. If buyer is satisfied with specific purchase then the value 
+of target variable is 1 and if buyer isn't satisfied the value is 0.
+ 
