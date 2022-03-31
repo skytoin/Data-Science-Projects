@@ -8,3 +8,11 @@ of target variable is 1 and if buyer isn't satisfied the value is 0.
  
 The given data had some features with missed values. Missed values wered filled in if feature had low percentage
 of missed values. Features like link to images were dropped, because they had too much of missed values.
+
+Data analysis has shown that there is no correlation between numerical features and the target variable.
+The highest correlation was found between the number of stars and the rank. It really makes sense, because 
+Amazon ranks low popular products and search quearies place these products higher on the page. There is a 
+slight correlation between the number of stars and the number of reviews. Most of the products are inexpensive
+in the given data. Majority of the products have price in the range from $10 to $20. The weight is low too. 
+This data has noticable correlation between the number of reviews and how often specific product was purchased. 
+Similar correlation is between the rank and the number of transactions for specific product.
