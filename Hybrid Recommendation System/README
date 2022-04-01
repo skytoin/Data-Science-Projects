@@ -33,3 +33,8 @@ One of the key problems is to resolve the problem of cold start. It's difficult 
 This client never purchased, rated anything. The collaborative recommendation system based only on ratings, product id,
 and customer is not the option. The recommendation system to resolve this issue should be feature based or hybrid. You
 can collect some basic features from your new customers or you can ask them to answer few questions after registration.
+
+These days may recommendation systems are hybrid. The final recommendation system is Weighted Recommendation System for
+this project. I built 3 recommendation systems and combined them to get final result. They have different weight in final
+prediction. I used lightfm library to build two of the systems (without features and with features). The third recommendation
+system is based on lightgbm regression.
