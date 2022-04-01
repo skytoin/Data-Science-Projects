@@ -24,3 +24,7 @@ The categorical feature 'verified' indicates that verified purchases have lower 
 The following following features have statistically significant difference with target variable 'rating'
 ('userid', 'asin'(product id), 'cat1'(product category), 'brand'). When I encoded 'rating' as categorical
 feature I found out 'price' doesn't have statistically significant difference with target variable.
+
+I created several new features that improved model's prediction. I groupedby category and number of stars
+the rank mean. Another new feature is groupedby brand the mean number of stars. The average rating for each 
+product is another new feature and the last feature is the average rating for each customer.
