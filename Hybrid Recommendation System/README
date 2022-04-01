@@ -28,3 +28,8 @@ feature I found out 'price' doesn't have statistically significant difference wi
 I created several new features that improved model's prediction. I groupedby category and number of stars
 the rank mean. Another new feature is groupedby brand the mean number of stars. The average rating for each 
 product is another new feature and the last feature is the average rating for each customer.
+
+One of the key problems is to resolve the problem of cold start. It's difficult to offer something for a new client.
+This client never purchased, rated anything. The collaborative recommendation system based only on ratings, product id,
+and customer is not the option. The recommendation system to resolve this issue should be feature based or hybrid. You
+can collect some basic features from your new customers or you can ask them to answer few questions after registration.
