@@ -19,3 +19,8 @@ Similar correlation is between the rank and the number of transactions for speci
 
 The distribution of purchases by year shows number of purchases increases with time. It's probably because online
 purchasing was not really popular back in 2000's and this Amazon became more popular with time.
+
+The categorical feature 'verified' indicates that verified purchases have lower product rank on average. 
+The following following features have statistically significant difference with target variable 'rating'
+('userid', 'asin'(product id), 'cat1'(product category), 'brand'). When I encoded 'rating' as categorical
+feature I found out 'price' doesn't have statistically significant difference with target variable.
