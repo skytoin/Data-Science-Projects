@@ -16,3 +16,6 @@ slight correlation between the number of stars and the number of reviews. Most o
 in the given data. Majority of the products have price in the range from $10 to $20. The weight is low too. 
 This data has noticable correlation between the number of reviews and how often specific product was purchased. 
 Similar correlation is between the rank and the number of transactions for specific product.
+
+The distribution of purchases by year shows number of purchases increases with time. It's probably because online
+purchasing was not really popular back in 2000's and this Amazon became more popular with time.
